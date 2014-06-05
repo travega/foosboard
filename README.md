@@ -2,3 +2,17 @@ foosboard
 =========
 
 This is a FoosBall (table-football) player ranking application which allows game scores to be aggregated into player ranking tables.
+
+The objective of this application is to allow players to register and record their scores so that their performance over time is analysed and displayed in different ways. The most basic requirement for this application is that a players register, input their scores and a leader board is created reflecting players success. Players should be able to join 'conferences' which may be made up of a bunch of mates that play together somewhere i.e. down the local... Conferences can be made up of one/many tournaments or leagues. Each league can have separate leaderboards and these separate tournament leaderboards can form one overall conference leaderboard. Leagues can themselves be ranked to provide for apropriate weighting of scores across a conference.
+
+Nice to haves would include: 
+ - android/iOS apps that allow players to record their game scores at the table after the game this way first half and second half scores can be entered directly after they are played. 
+ - player profiles and stats.
+ - Awesome visual representations of the player data.
+
+
+TECHNOLOGIES
+------------
+
+ - SpringBoot
+ - AngularJS
