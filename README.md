@@ -9,7 +9,7 @@ Nice to haves would include:
  - android/iOS apps that allow players to record their game scores at the table after the game this way first half and second half scores can be entered directly after they are played. 
  - player profiles and stats.
  - Awesome visual representations of the player data.
-
+ - Random match generator
 
 TECHNOLOGIES
 ------------
