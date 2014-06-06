@@ -16,6 +16,8 @@ Nice to haves would include:
  - casual play section showing players availible to play.
  - match schedules with a possible random scheduling function.
 
+![](https://www.dropbox.com/s/v8da3963ukp7rka/scoring_alg.jpg)
+
 TECHNOLOGIES
 ------------
 
