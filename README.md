@@ -23,12 +23,8 @@ TECHNOLOGIES
 How to run
 ----------
 
-Use the gradle wrapper to run the app, as follows
-
-'''java
+Use the gradle wrapper to start the app
 
 ```java
- ./gradlew bootRun
-'''
- 
-
+./gradlew bootRun
+```
