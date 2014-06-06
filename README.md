@@ -14,5 +14,21 @@ Nice to haves would include:
 TECHNOLOGIES
 ------------
 
- - SpringBoot
- - AngularJS
+ - SpringBoot - http://projects.spring.io/spring-boot/ 
+ - AngularJS  - https://angularjs.org/
+ - Gradle     - http://www.gradle.org/ 
+ - Bootstrap  - http://getbootstrap.com/
+ - MongoDB    - http://www.mongodb.org/
+
+How to run
+----------
+
+Use the gradle wrapper to run the app, as follows
+
+'''java
+
+```java
+ ./gradlew bootRun
+'''
+ 
+
