@@ -23,6 +23,7 @@ TECHNOLOGIES
  - Gradle     - http://www.gradle.org/ 
  - Bootstrap  - http://getbootstrap.com/
  - MongoDB    - http://www.mongodb.org/
+ - Git        - Branching Model: http://nvie.com/posts/a-successful-git-branching-model/
 
 How to run
 ----------
