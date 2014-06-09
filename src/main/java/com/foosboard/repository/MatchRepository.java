@@ -2,8 +2,8 @@ package com.foosboard.repository;
 
 import com.foosboard.domain.Match;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import org.springframework.stereotype.Repository;
 
-@RepositoryRestResource(collectionResourceRel="match", path="match")
+@Repository
 public interface MatchRepository extends MongoRepository<Match, String> {
 }
