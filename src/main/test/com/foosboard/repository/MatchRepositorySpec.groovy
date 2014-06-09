@@ -27,7 +27,7 @@ class MatchRepositorySpec extends Specification {
 
             def match = new Match([player1, player2])
 
-        when: "Saving a match to mongo"
+        when: "Saving a match to mongodb"
             sut.save(match)
 
 
