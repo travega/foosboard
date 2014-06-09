@@ -1,11 +1,20 @@
 package com.foosboard.domain;
 
-/**
- * Created with IntelliJ IDEA.
- * User: skrymer
- * Date: 9/06/14
- * Time: 8:09 PM
- * To change this template use File | Settings | File Templates.
- */
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.List;
+
+@Document
 public class Match {
+	@Id
+	private String id;
+
+	@DBRef
+	private List<Player> players;
+
+	public Match(List<Player> players){
+		this.players = players;
+	}
 }

@@ -1,11 +1,16 @@
 package com.foosboard.domain;
 
-/**
- * Created with IntelliJ IDEA.
- * User: skrymer
- * Date: 9/06/14
- * Time: 8:00 PM
- * To change this template use File | Settings | File Templates.
- */
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class Player {
+	@Id
+	private String id;
+
+	private String name;
+
+	public Player(String name){
+		this.name = name;
+	}
 }

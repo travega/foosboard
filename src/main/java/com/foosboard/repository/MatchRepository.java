@@ -1,11 +1,11 @@
 package com.foosboard.repository;
 
+import com.foosboard.domain.Match;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
 /**
- * Created with IntelliJ IDEA.
- * User: skrymer
- * Date: 9/06/14
- * Time: 8:11 PM
- * To change this template use File | Settings | File Templates.
+ * Match repository
  */
-public class MatchRepository {
-}
+@Repository
+public interface MatchRepository extends MongoRepository<Match, String> {}
