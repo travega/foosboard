@@ -14,16 +14,32 @@ public class PlayerService {
     @Autowired
     PlayerRepository playerRepository;
 
-    public List<Player> getPlayers(){
+    public Player createPlayer(Player player) {
+        return playerRepository.save(player);
+    }
+
+    public List<Player> retrievePlayers(){
         List<Player> players = playerRepository.findAll();
         return players;
     }
 
-    public Player getPlayer(String id) {
+    public Player retrievePlayer(String id) {
         return playerRepository.findOne(id);
     }
 
-    public Object getPlayerRating(String id) {
+    // TODO actual calculation
+    public Object retrievePlayerRating(String id) {
         return JSON.parse("{'rating':42}");
     }
+
+    // TODO check that save is supposed to be used for create and update.
+    public Player updatePlayer(Player player){
+        return playerRepository.save(player);
+    }
+
+    public void deletePlayer(String id){
+        playerRepository.delete(id);
+    }
+
+
 }
