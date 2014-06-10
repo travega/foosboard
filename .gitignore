@@ -101,3 +101,10 @@ $RECYCLE.BIN/
 Session.vim
 .netrwhist
 *~
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
