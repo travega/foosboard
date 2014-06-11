@@ -1,7 +1,7 @@
 package com.foosboard.service;
 
-import com.foosboard.domain.ScoreBoard;
 import com.foosboard.domain.Tournament;
+import com.foosboard.repository.ScoreBoardRepository;
 import com.foosboard.repository.TournamentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ public class TournamentService {
     TournamentRepository tournamentRepository;
 
     @Autowired
-    ScoreBoard scoreBoard;
+    ScoreBoardRepository scoreBoardRepository;
 
     public Tournament createTournament(Tournament tournament) {
         // TODO create a scoreboard

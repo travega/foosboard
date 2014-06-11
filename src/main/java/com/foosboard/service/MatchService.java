@@ -1,10 +1,9 @@
 package com.foosboard.service;
 
 import com.foosboard.domain.Match;
-import com.foosboard.domain.RankingScore;
-import com.foosboard.domain.Tournament;
 import com.foosboard.repository.MatchRepository;
-import com.mongodb.util.JSON;
+import com.foosboard.repository.RankingScoreRepository;
+import com.foosboard.repository.TournamentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,10 +16,10 @@ public class MatchService {
     MatchRepository matchRepository;
 
     @Autowired
-    RankingScore rankingScore;
+    RankingScoreRepository rankingScoreRepository;
 
     @Autowired
-    Tournament tournament;
+    TournamentRepository tournamentRepository;
 
     public Match createMatch(Match match) {
         return matchRepository.save(match);
