@@ -1,5 +1,7 @@
 package com.foosboard.domain;
 
+import org.springframework.data.annotation.Id;
+
 import java.util.List;
 
 /**

@@ -38,5 +38,5 @@ public class ScoreBoardController {
 //    @RequestMapping(value="/scoreBoard/{id}", method=RequestMethod.DELETE)
 //    public void deleteScoreBoard(@PathVariable String id){
 //        scoreBoardService.deleteScoreBoard(id);
-    }
+//    }
 }

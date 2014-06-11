@@ -3,6 +3,7 @@ package com.foosboard.service;
 import com.foosboard.domain.ScoreBoard;
 import com.foosboard.repository.ScoreBoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
