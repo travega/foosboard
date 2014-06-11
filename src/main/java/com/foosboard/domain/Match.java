@@ -10,6 +10,8 @@ public class Match {
     @Id
     private String id;
 
+    private Tournament tournament;
+
     private Player playerOne;
     private Player playerTwo;
 
@@ -22,6 +24,14 @@ public class Match {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Tournament getTournament() {
+        return tournament;
+    }
+
+    public void setTournament(Tournament tournament) {
+        this.tournament = tournament;
     }
 
     public Player getPlayerOne() {
