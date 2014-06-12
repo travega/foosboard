@@ -13,7 +13,7 @@ public class Tournament {
     private String id;
 
     private String tournamentName;
-    private Conference conference;
+    private String conferenceName;
     private Integer tournamentRank;
     private List<Player> players;
 
@@ -33,12 +33,12 @@ public class Tournament {
         this.tournamentName = tournamentName;
     }
 
-    public Conference getConference() {
-        return conference;
+    public String getConferenceName() {
+        return conferenceName;
     }
 
-    public void setConference(Conference conference) {
-        this.conference = conference;
+    public void setConferenceName(String conferenceName) {
+        this.conferenceName = conferenceName;
     }
 
     public Integer getTournamentRank() {
